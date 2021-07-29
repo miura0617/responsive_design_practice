@@ -1,0 +1,45 @@
+/* 縦横幅 */
+/* 境界線 */
+/* 背景色 */
+/* 文字装飾（サイズ、太字など） */
+/* float:left （回り込み）や display:flex （）*/
+/* margin */
+/* padding */
+
+/* @import url(sanitize.css); */
+
+body {
+    max: width 1024px;
+    border: 1px solid #f00;
+}
+
+
+header {
+    /* 縦横幅 */
+    width: 100%;
+    /* 境界線 */
+    border: 1px solid #000;
+    /* 文字装飾（サイズ、太字など） */
+    /* float:left （回り込み）や display:flex （）*/
+    /* margin */
+    /* padding */
+}
+
+header img {
+    width: 25%;
+}
+
+header p {
+    width:25%;
+    background-color: cyan;
+    margin: 0;
+}
+
+.left {
+    float: left;
+    background-color: pink;
+}
+.right {
+    float: right;
+    background-color: cyan;
+}

@@ -1,0 +1,12 @@
+p.sp-area {
+   display: none;/*PCの時は非表示*/
+}
+
+@media screen and (max-width: 480px){
+    p.pc-area {
+        display: none;
+    }
+    p.sp-area {
+        display: block;
+    }
+}
